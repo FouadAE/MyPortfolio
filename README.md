@@ -14,8 +14,8 @@
 ⚡️ Valid HTML5 & CSS3\
 ⚡️ Optimized with Parcel\
 
-##Deployement 
-⚡️ Heroku
+## Deployement 
+⚡️ Heroku\
 
 To view the demo: **[click here](http://fouadae.herokuapp.com/)**
 
