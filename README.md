@@ -1,1 +1,1 @@
-<h1>Fouad AE Portfolio</h1>
+<h1 style='color:green'>Fouad AE Portfolio</h1>
