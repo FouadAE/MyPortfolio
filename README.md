@@ -2,7 +2,7 @@
 ## A minimal portfolio 
 
 <h2 align="center">
-  <img src="https://github.com/fouadae/MyPortfolio/blob/master/public/favion.png" alt="Simplefolio" width="600px" />
+  <img src="https://github.com/FouadAE/MyPortfolio/blob/main/public/demo.png" alt="Simplefolio" width="600px" />
   <br>
 </h2>
 
