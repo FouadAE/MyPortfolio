@@ -6,6 +6,8 @@ import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import add from "../../Assets/Projects/add.webp";
+import othello from "../../Assets/Projects/othello.jpg";
 
 function Projects() {
   return (
@@ -61,6 +63,26 @@ function Projects() {
 
               this web site coded using expressJs and ejs"
               ghLink="https://github.com/fouadae/books_lib"
+              demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={add}
+              isBlog={false}
+              title="Universities world ranking Data Analysis"
+              description="The objective of this project is to introduce us to the main stages of the production of a data analysis report: from cleaning and importing raw data to their descriptive analysis and graphical presentation."
+              ghLink="https://github.com/fouadae/universities-world-ranking-data-analysis"
+              demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={othello}
+              isBlog={false}
+              title="Othello Game"
+              description="Othello game is famous game I try in this project to implement it using python and the two algorithms minimax and alpha-beta-pruning algorithm you can play again 3 levels each level depend on search deept"
+              ghLink="https://github.com/fouadae/universities-world-ranking-data-analysis"
               demoLink=""
             />
           </Col>
