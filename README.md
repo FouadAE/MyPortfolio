@@ -15,7 +15,7 @@
 ⚡️ Optimized with Parcel\
 
 ## Deployement 
-⚡️ Heroku\
+⚡️ Netlify\
 
 To view the demo: **[click here](https://fouadae.netlify.app/)**
 
