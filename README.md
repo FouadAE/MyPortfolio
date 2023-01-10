@@ -17,7 +17,7 @@
 ## Deployement 
 ⚡️ Heroku\
 
-To view the demo: **[click here](http://fouadae.herokuapp.com/)**
+To view the demo: **[click here](https://fouadae.netlify.app/)**
 
 ---
 
