@@ -16,39 +16,37 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Allow Me <span className="purple"> TO NTRODUCE MYSELF </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I am deeply passionate about the field of Data Science and Machine Learning, and have gained a significant amount of knowledge and experience in these areas I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am proficient in techniques such as
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Machine Learning , Deep Learning  and programming in  Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My interests lie in developing new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Machien Learning Models  </b> as
+                 well as{" "}
                 <b className="purple">
-                  Machine Learning and Deep Learning  .
+                 exploring the intersection of Machine Learning and web development.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I am constantly seeking opportunities to apply my skills, particularly in the use of <b className="purple">Python</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  popular Machine Learning libraries 
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; such as
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> Scikit-learn </b>
               </i>
             </p>
           </Col>
