@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/fraud.jpg";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import chatify from "../../Assets/Projects/sgcip.PNG";
 import add from "../../Assets/Projects/add.webp";
 import othello from "../../Assets/Projects/othello.jpg";
+import arabic from "../../Assets/Projects/arabic.jpg";
 
 function Projects() {
   return (
@@ -23,21 +23,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={arabic}
               isBlog={false}
-              title="SGCIP-Server"
-              description="My project consists in the study, the design and the realization of an application of Integrated Management of the communication of the Province developed using Java JEE "
-              ghLink="https://github.com/FouadAE/SGCIP-Client"
+              title="K-means-Random-Forest-Arabic-Handwriting-Letters-Recognition"
+              description="I applied both supervised and unsupervised models to recognize and classify Arabic Handwriting letters using a small dataset created in our classroom for this project"
+              ghLink="https://github.com/FouadAE/K-means-Random-Forest-Arabic-Letters"
               demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chatify}
               isBlog={false}
-              title="SGCIP-Client"
-              description="the is the front end of the project in your left."
+              title="SGCIP"
+              description="My project consists in the study, the design and the realization of an application of Integrated Management of the communication of the Province developed using Java JEE "
               ghLink="https://github.com/FouadAE/SGCIP-Client"
               demoLink=""
             />
@@ -58,11 +58,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Books Library"
-              description="simple web site to store books using the title and description  and the pdf file
-
-              this web site coded using expressJs and ejs"
-              ghLink="https://github.com/fouadae/books_lib"
+              title="Fraud-Detection-Data-Mining"
+              description="A fraud detection system for final exams using machine learning and data mining techniques to identify patterns in student data and detect suspicious behavior, ensuring the integrity of exam scores and fair evaluation of student performance"
+              ghLink="https://github.com/FouadAE/Fraud-Detection-Data-Mining"
               demoLink=""
             />
           </Col>
