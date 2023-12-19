@@ -3,10 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/fraud.jpg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/sgcip.PNG";
+import chatify from "../../Assets/Projects/autofill.png";
 import add from "../../Assets/Projects/add.webp";
-import othello from "../../Assets/Projects/othello.jpg";
+import othello from "../../Assets/Projects/chatbot.png";
 import arabic from "../../Assets/Projects/arabic.jpg";
 
 function Projects() {
@@ -31,29 +30,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="SGCIP"
-              description="My project consists in the study, the design and the realization of an application of Integrated Management of the communication of the Province developed using Java JEE "
-              ghLink="https://github.com/FouadAE/SGCIP-Client"
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Function Draw VR"
-              description="a Javascript application helps mathematicians to better see functions with several variables in 3D , build using web VR technologies"
-              ghLink="https://github.com/fouadae/Function-draw-vr"
-              demoLink=""              
-            />
-          </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -64,6 +41,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={add}
@@ -74,18 +52,40 @@ function Projects() {
               demoLink=""
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={othello}
               isBlog={false}
-              title="Othello Game"
-              description="Othello game is famous game I try in this project to implement it using python and the two algorithms minimax and alpha-beta-pruning algorithm you can play again 3 levels each level depend on search deept"
-              ghLink="https://github.com/fouadae/universities-world-ranking-data-analysis"
+              title="Chatbot"
+              description="A chatbot designed specifically for Jamea El Fenna in Marrakech, Morocco, has the capability to provide information about the location, its history, and administrative details related to the city. Users can inquire about various aspects of Jamea El Fenna and seek assistance on matters concerning the city's administration."
+              ghLink="https://github.com/fouadae/chatbot-python-code"
               demoLink=""
             />
           </Col>
 
-        
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Resume Autofill Chrome Extension"
+              description="My Chrome extension simplifies job applications on River and Greenhouse websites by automating the form-filling process. Developed with JavaScript, it extracts and populates fields, while the OpenAI API automates data extraction from resumes to match application fields."
+              ghLink="https://github.com/mamasdev/underpin-extension"
+              demoLink=""
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Function Draw VR"
+              description="a Javascript application helps mathematicians to better see functions with several variables in 3D , build using web VR technologies"
+              ghLink="https://github.com/fouadae/Function-draw-vr"
+              demoLink=""              
+            />
+          </Col> */}
+
         </Row>
       </Container>
     </Container>

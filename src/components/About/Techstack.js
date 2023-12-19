@@ -6,12 +6,8 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  
-
 } from "react-icons/di";
-import {
-SiScikitlearn,SiJava,SiR,SiPandas
-} from "react-icons/si";
+import { SiScikitlearn, SiR, SiPandas, SiNumpy } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -20,15 +16,19 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiScikitlearn />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiR />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
         <SiPandas />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -41,19 +41,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
-      
-      
 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiScikitlearn />
-      </Col>
-
-      
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiJava />
-      </Col>
-      
-      
+      </Col> */}
     </Row>
   );
 }

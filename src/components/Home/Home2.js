@@ -19,7 +19,7 @@ function Home2() {
               Allow Me <span className="purple"> TO NTRODUCE MYSELF </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am deeply passionate about the field of Data Science and Machine Learning, and have gained a significant amount of knowledge and experience in these areas I think… 🤷‍♂️
+            I am deeply passionate about the field of Data Science and Machine Learning, and have gained a significant amount of knowledge and experience in these areas … 🤷‍♂️
               <br />
               <br />I am proficient in techniques such as
               <i>
@@ -44,10 +44,10 @@ function Home2() {
                   popular Machine Learning libraries 
                 </b>
               </i>
-              &nbsp; such as
+              {/* &nbsp; such as
               <i>
                 <b className="purple"> Scikit-learn </b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
