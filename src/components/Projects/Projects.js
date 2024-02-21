@@ -7,6 +7,7 @@ import chatify from "../../Assets/Projects/autofill.png";
 import add from "../../Assets/Projects/add.webp";
 import othello from "../../Assets/Projects/chatbot.png";
 import arabic from "../../Assets/Projects/arabic.jpg";
+import analysis from "../../Assets/Projects/analysis.jpg";
 
 function Projects() {
   return (
@@ -75,16 +76,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={analysis}
               isBlog={false}
-              title="Function Draw VR"
-              description="a Javascript application helps mathematicians to better see functions with several variables in 3D , build using web VR technologies"
-              ghLink="https://github.com/fouadae/Function-draw-vr"
-              demoLink=""              
+              title="Market Job Offers Data Analysis"
+              description="This project aims to empower users by providing insights into the job market for AI, Data Science, and Big Data. Users will gain a comprehensive understanding of in-demand skills and the associated salary trends, facilitating informed decisions for career planning and development. The goal is to offer a valuable resource for individuals seeking to optimize their career paths in these dynamic and high-demand fields."
+              ghLink="https://github.com/FouadAE/jobs-trend-analysis"
+              demoLink=""
             />
-          </Col> */}
+          </Col>
 
         </Row>
       </Container>
