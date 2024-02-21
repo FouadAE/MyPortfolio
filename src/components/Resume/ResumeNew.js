@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -8,17 +8,21 @@ import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "resume.png";
+const resumeLink = process.env.PUBLIC_URL + "/resume.png";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-  console.log(width);
-  
+  // const [width, setWidth] = useState(1200);
+  // console.log(width);
 
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+  // useEffect(() => {
+  //   setWidth(window.innerWidth);
+  // }, []);
+
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
 
   return (
     <div>
@@ -37,7 +41,12 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <img src={resumeLink} alt="#" />
+          <img
+            src={resumeLink}
+            alt="#"
+            style={{ display: imageLoaded ? "block" : "none" }}
+            onLoad={handleImageLoad}
+          />
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
