@@ -29,7 +29,7 @@ function Home2() {
               <br />
               My interests lie in developing new &nbsp;
               <i>
-                <b className="purple">Machien Learning Models  </b> as
+                <b className="purple">Machine Learning Models  </b> as
                  well as{" "}
                 <b className="purple">
                  exploring the intersection of Machine Learning and web development.
